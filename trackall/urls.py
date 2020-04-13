@@ -13,5 +13,5 @@ urlpatterns =[
     path("delete_income/<int:income_id>/", delete_income),
     path("edit_wallet/<int:wallet_id>/", edit_wallet),
     path("edit_expense/<int:expense_id>/", edit_expense),
-    path("edit_income/<int:income_id>/", edit_income),
+    path("edit_income/<int:income_id>/", edit_income),                          
 ]
